@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jitendra Kasaudhan"]
   spec.email         = ["jiten.ktm@gmail.com"]
 
-  spec.summary       = "This gem will limit the results of the query by max_limit number"
-  spec.description   = "If max_limit is not specified, this gem will return only 5 result items by default on all sql queries"
+  spec.summary       = "This gem will limit the results of the query by max_query_limit number"
+  spec.description   = "If max_query_limit is not specified, this gem will return only 5 result items by default on all sql queries"
   spec.homepage      = "https://jkasaudhan.github.io"
   spec.license       = "MIT"
 
