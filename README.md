@@ -25,6 +25,7 @@ Or install it yourself as:
 ```ruby
 class Product < ApplicationRecord
     query_limiter
+    # max_query_limit 100 # limits results upto 100 items
 end
 
 rails c
