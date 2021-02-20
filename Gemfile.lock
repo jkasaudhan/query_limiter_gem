@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    query_limiter (0.1.2)
+    query_limiter (0.1.3)
       activerecord (>= 5.0.0)
 
 GEM
