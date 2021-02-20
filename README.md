@@ -22,8 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+class Product < ApplicationRecord
+    query_limiter
+end
 
+rails c
+products = Product.all
+# By default maxium 5 items will be returned
+# Underlying sql query used 
+# Product Load (1.0ms)  SELECT  "products".* FROM "products" LIMIT ?  [["LIMIT", 5]]
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
